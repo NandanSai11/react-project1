@@ -1,0 +1,47 @@
+.verticalmenu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  overflow-y: auto;
+}
+
+.verticalmenu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.verticalmenu a:hover {
+  background-color: #44aef5;
+  color: #ffff;
+}
+
+.verticalmenu a.active {
+  background-color: #44aef5;
+  color: white;
+}
+
+.comments {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.comments a {
+  text-decoration: none;
+  background-color: #44aef5;
+  color: #ffff;
+  padding: 15px;
+  font-size: large;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.comments h1 {
+  font-family: sans-serif;
+  color: #44aef5;
+}
